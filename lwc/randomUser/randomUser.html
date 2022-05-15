@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Random User Information">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="4" padding="around-small">
+                <div class="slds-p-around_medium slds-text-align_center">
+                    <img src={picture} alt="Avatar" style="border-radius: 65%" />
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item size="8" padding="around-small">
+                <div class="slds-p-around_medium" style="font-size: large">
+                    Hello My Name Is {name}.<br/>
+                    My Age Is {age} & Gender Is {gender}.<br/>
+                    My Email Is {email} & Phone Number Is {phone}.<br/>
+                    I Live in {city} City.<br/>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
